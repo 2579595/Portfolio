@@ -1,0 +1,242 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+header {
+    background-color: #0a0a0a;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1.contact {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 48px;
+}
+
+.highlight {
+    color: #00bcd4;
+}
+
+
+.skills {
+    padding: 50px 20px; 
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 0 20px; 
+}
+
+.heading {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; 
+    position: relative;
+}
+
+.skill i {
+    font-size: 36px;
+    margin-right: 20px;
+}
+
+.skill-details {
+    flex: 1;
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percentage-label {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.skill::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #00bcd4;
+}
+
+
+.html {
+    background-color: #c95d2e; 
+}
+
+.css {
+    background-color: #147bbc; 
+}
+
+.javascript {
+    background-color: #b0bc1e; 
+}
+
+.python {
+    background-color: #c32ec9; 
+}
+
+.react {
+    background-color: #69bcbc;
+}
+
+.angular {
+    background-color: red; 
+}
+
+
+.radial-bar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 30px; 
+}
+
+.radial-bar svg {
+    width: 100%;
+    height: 100%;
+}
+
+.track {
+    fill: none;
+    stroke: #333;
+    stroke-width: 10;
+}
+
+.progress {
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px); 
+    transform-origin: center;
+    animation: progress-animation 1s forwards;
+}
+
+.percentage {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #00bcd4;
+}
+
+@keyframes progress-animation {
+    to {
+        stroke-dashoffset: calc(251.2 - (251.2 * var(--percentage) / 100));
+    }
+}
+
+
+.creativity .progress {
+    stroke: #00bcd4; 
+}
+
+.communication .progress {
+    stroke: #00bcd4; 
+}
+
+.problem-solving .progress {
+    stroke: #00bcd4; 
+}
+
+.team-work .progress {
+    stroke: #00bcd4; 
+}
+footer {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3); 
+    z-index: 1000; /
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer .social-icons {
+    margin-left: auto;
+}
+
+footer .social-icons a {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #00bcd4; 
+}
+

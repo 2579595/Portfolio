@@ -1,0 +1,148 @@
+.projects {
+    padding: 50px 0;
+    background-color: #0a0a0a;
+}
+
+.projects h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project-item {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    padding: 20px;
+}
+
+header {
+    background-color: #0a0a0a;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.content {
+    max-width: 500px;
+    margin-right: 50px;
+}
+
+.content h1, .content h2, .content h3, .content p {
+    margin: 0;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 48px;
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #00bcd4;
+}
+
+.content p {
+    margin-top: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+header {
+    background-color: #0a0a0a;
+    padding: 10px 20px;
+}
+.highlight {
+    color: #00bcd4;
+}
+footer {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3); 
+    z-index: 1000; 
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer .social-icons {
+    margin-left: auto;
+}
+
+footer .social-icons a {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #00bcd4; 
+}
